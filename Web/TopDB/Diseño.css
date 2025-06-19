@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+
+   background: radial-gradient(circle, #ffbc81 0%, #FF6F00 100%);
+}
+.fondo {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+.hoja {
+  background-color: #ffbc81; /* Naranja pastel suave */
+  padding: 40px;
+  max-width: 850px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+
+   text-align: center;
+}
+
+h1, h2, h3 {
+  color: #222;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}

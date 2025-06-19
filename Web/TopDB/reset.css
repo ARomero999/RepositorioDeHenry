@@ -1,0 +1,82 @@
+/* Reset básico de CSS */
+
+/* Restablecer márgenes y rellenos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Restablecer el tamaño de fuente en elementos */
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* Restablecer los estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Restablecer los estilos de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminar el estilo predeterminado de botones */
+button, input, select, textarea {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Restablecer tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Establecer reglas para el formulario */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Restablecer elementos de formulario */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Evitar que los elementos 'fieldset' tengan bordes */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* Restablecer la apariencia del cursor */
+button, a, input, select {
+  cursor: pointer;
+}
+
+/* Evitar que los formularios tengan bordes por defecto */
+form {
+  margin: 0;
+  padding: 0;
+}
